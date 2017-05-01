@@ -13,6 +13,7 @@
 		013252291EB66CA40019BB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013252281EB66CA40019BB5B /* Assets.xcassets */; };
 		0132522C1EB66CA40019BB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0132522A1EB66CA40019BB5B /* LaunchScreen.storyboard */; };
 		013252371EB66CA40019BB5B /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013252361EB66CA40019BB5B /* HamburguesasTests.swift */; };
+		013252421EB66CD50019BB5B /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013252411EB66CD50019BB5B /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		013252321EB66CA40019BB5B /* HamburguesasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013252361EB66CA40019BB5B /* HamburguesasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasTests.swift; sourceTree = "<group>"; };
 		013252381EB66CA40019BB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013252411EB66CD50019BB5B /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Datos.swift; path = ../Datos.swift; sourceTree = "<group>"; };
+		013252431EB685E10019BB5B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +80,8 @@
 		013252201EB66CA40019BB5B /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
-				013252211EB66CA40019BB5B /* AppDelegate.swift */,
-				013252231EB66CA40019BB5B /* ViewController.swift */,
+				0159A8391EB69FEA00B3B07B /* Swift */,
+				0159A8381EB69FC300B3B07B /* Playground */,
 				013252251EB66CA40019BB5B /* Main.storyboard */,
 				013252281EB66CA40019BB5B /* Assets.xcassets */,
 				0132522A1EB66CA40019BB5B /* LaunchScreen.storyboard */,
@@ -94,6 +97,24 @@
 				013252381EB66CA40019BB5B /* Info.plist */,
 			);
 			path = HamburguesasTests;
+			sourceTree = "<group>";
+		};
+		0159A8381EB69FC300B3B07B /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				013252431EB685E10019BB5B /* MyPlayground.playground */,
+			);
+			name = Playground;
+			sourceTree = "<group>";
+		};
+		0159A8391EB69FEA00B3B07B /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				013252411EB66CD50019BB5B /* Datos.swift */,
+				013252211EB66CA40019BB5B /* AppDelegate.swift */,
+				013252231EB66CA40019BB5B /* ViewController.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +222,7 @@
 			files = (
 				013252241EB66CA40019BB5B /* ViewController.swift in Sources */,
 				013252221EB66CA40019BB5B /* AppDelegate.swift in Sources */,
+				013252421EB66CD50019BB5B /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +428,7 @@
 				0132523D1EB66CA40019BB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0132523E1EB66CA40019BB5B /* Build configuration list for PBXNativeTarget "HamburguesasTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +437,7 @@
 				013252401EB66CA40019BB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
